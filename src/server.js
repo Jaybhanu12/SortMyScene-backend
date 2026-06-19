@@ -21,7 +21,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'https://sortmyscene-backend.onrender.com',
+    origin: process.env.CLIENT_URL || 'https://sortmyscene-frontend.onrender.com',
     credentials: true,
   })
 );
